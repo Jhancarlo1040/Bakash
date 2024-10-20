@@ -15,7 +15,7 @@ try :
     conexion = mysql.connector.connect(
         host = 'localhost',
         user = 'root',
-        password = 'jhan1040',
+        password = 'password',  #utilizas tu contraseña que tenga en tu gestion de base
         database = 'webscraping'
         )
     cursor = conexion.cursor()
